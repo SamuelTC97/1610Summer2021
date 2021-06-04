@@ -24,6 +24,6 @@ public class AnotherClass
     {
         int answer;
         answer = a + b;
-        Debug.Log("Office Supplies total: " + answer)
+        Debug.Log("Office Supplies total: " + answer);
     }
 }
