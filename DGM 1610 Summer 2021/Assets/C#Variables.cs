@@ -7,7 +7,7 @@ public class C#Variables : MonoBehaviour
 	{
 		int myNum = 4;
 	}
-	
+
 
 	{
 		double myDoubleNum = 5.99D;
