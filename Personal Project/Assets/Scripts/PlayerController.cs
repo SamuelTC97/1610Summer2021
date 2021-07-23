@@ -60,4 +60,21 @@ public class PlayerController : MonoBehaviour
             playerRb.AddForce(Vector3.left * edgeBounce);
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Player has collided with Enemy");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Consumaball"))
+        {
+            Destroy(other.gameObject);
+            gameObject.transform.localScale += new Vector3(.25f, .25f, .25f);
+        }
+    }
 }
