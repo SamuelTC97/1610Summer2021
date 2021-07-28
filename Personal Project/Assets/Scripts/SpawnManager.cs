@@ -6,11 +6,8 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject enemy;
     public GameObject consumaball;
-    // Min spawns temporarily not in use until better spawning solution is found
-    private float xMin = 18f;
-    private float zMin = 18f;
-    private float xMax = 24f;
-    private float zMax = 22.5f;
+    private float xRange = 24f;
+    private float zRange = 22.5f;
     private float ySpawn = .540f;
     private float spawnTime = 1f;
     private float startDelay = 1f;
@@ -29,8 +26,8 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnEnemy()
     {
-        float randomX = Random.Range(-xMax, xMax);
-        float randomZ = Random.Range(-zMax, zMax);
+        float randomX = Random.Range(-xRange, xRange);
+        float randomZ = Random.Range(-zRange, zRange);
 
         Vector3 spawnPos = new Vector3(randomX, ySpawn, randomZ);
 
@@ -39,8 +36,8 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnConsumaball()
     {
-        float randomX = Random.Range(-xMax, xMax);
-        float randomZ = Random.Range(-zMax, zMax);
+        float randomX = Random.Range(-xRange, xRange);
+        float randomZ = Random.Range(-zRange, zRange);
 
         Vector3 spawnPos = new Vector3(randomX, ySpawn, randomZ);
         
