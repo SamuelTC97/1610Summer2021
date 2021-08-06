@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c43038a10778e64b8da2e8573e6cc06, type: 3}
+  m_Name: 4_Greataxe
+  m_EditorClassIdentifier: 
+  weaponName: Greataxe
+  description: An axe of large size that seems to be compensating for its poor quality.
+  icon: {fileID: 0}
+  attackDamage: 6
+  attackSpeed: 2
+  attackRange: 4
