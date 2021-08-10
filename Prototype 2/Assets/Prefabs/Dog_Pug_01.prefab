@@ -3106,9 +3106,9 @@ GameObject:
   - component: {fileID: 2457862436038441575}
   - component: {fileID: 2457862436029373717}
   - component: {fileID: 2457862434330145356}
-  - component: {fileID: 1999065832}
   - component: {fileID: 2002655483550775729}
-  - component: {fileID: 1999065833}
+  - component: {fileID: 5525900598467740359}
+  - component: {fileID: 8593394859554508401}
   m_Layer: 0
   m_Name: Dog_Pug_01
   m_TagString: Untagged
@@ -3199,18 +3199,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 9
---- !u!114 &1999065832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2457862436038750427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f447ecf79208504d8a9d9fe5937baf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2002655483550775729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3224,7 +3212,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.13538587, y: 0.2015043, z: 0.27472576}
   m_Center: {x: 0.00012372732, y: 0.089181714, z: 0.031621005}
---- !u!114 &1999065833
+--- !u!114 &5525900598467740359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3233,7 +3221,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2457862436038750427}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 653a89ed81392104ea13da8003409f10, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8593394859554508401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2457862436038750427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2457862436038751309

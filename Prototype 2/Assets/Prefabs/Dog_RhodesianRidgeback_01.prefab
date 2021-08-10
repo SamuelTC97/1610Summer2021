@@ -580,9 +580,9 @@ GameObject:
   - component: {fileID: 460609491459062189}
   - component: {fileID: 460609491449156571}
   - component: {fileID: 460609490659745871}
-  - component: {fileID: 204328392}
   - component: {fileID: 6012804373342572712}
-  - component: {fileID: 204328393}
+  - component: {fileID: 3168845651676200509}
+  - component: {fileID: -5032244911264715831}
   m_Layer: 0
   m_Name: Dog_RhodesianRidgeback_01
   m_TagString: Untagged
@@ -673,18 +673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 11
---- !u!114 &204328392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 460609491458598675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f447ecf79208504d8a9d9fe5937baf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &6012804373342572712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -698,7 +686,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10313902, y: 0.22346878, z: 0.2991026}
   m_Center: {x: 0.003395152, y: 0.0972569, z: 0.027598668}
---- !u!114 &204328393
+--- !u!114 &3168845651676200509
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -707,7 +695,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 460609491458598675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 653a89ed81392104ea13da8003409f10, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5032244911264715831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460609491458598675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &460609491458599825

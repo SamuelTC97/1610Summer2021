@@ -1972,9 +1972,9 @@ GameObject:
   - component: {fileID: 8716322940679202865}
   - component: {fileID: 8716322940671610097}
   - component: {fileID: 8716322940586390499}
-  - component: {fileID: 1673321015}
   - component: {fileID: 1190135303576460892}
-  - component: {fileID: 1673321016}
+  - component: {fileID: 6367311327600378403}
+  - component: {fileID: -5072501228273562026}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -2065,18 +2065,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
---- !u!114 &1673321015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8716322940678919617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f447ecf79208504d8a9d9fe5937baf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1190135303576460892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2090,7 +2078,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.108537436, y: 0.22997878, z: 0.27633366}
   m_Center: {x: 0.00053819024, y: 0.09707349, z: 0.03194992}
---- !u!114 &1673321016
+--- !u!114 &6367311327600378403
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2099,7 +2087,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 8716322940678919617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 653a89ed81392104ea13da8003409f10, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5072501228273562026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8716322940678919617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8716322940678920617
